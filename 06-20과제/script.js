@@ -45,7 +45,6 @@ nameInput.addEventListener("keypress", function (e) {
 // 날씨 정보 불러오기
 
 const weather = document.getElementById("weather");
-const API_KEY = '812b84c306fc58f8d71e289252581d42';
 
 function getWeather(lat, lon) {
   console.log(lat, lon);
